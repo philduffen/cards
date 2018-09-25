@@ -21,12 +21,12 @@ defmodule Cards do
   @doc """
     Checks for presence of `card` in `deck`.
 
-  ## Examples
+  ## Example
 
       iex> deck = Cards.create_deck
-      iex> Cards.contains(deck, "Ace of Spades")
+      iex> Cards.contains?(deck, "Ace of Spades")
       true
-      iex> Cards.contains(deck, "Eleven of Spades")
+      iex> Cards.contains?(deck, "Eleven of Spades")
       false
 
   """
